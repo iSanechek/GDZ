@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent"
+        android:background="@android:color/holo_blue_dark">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="4dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="А.С Перцовкин В.Ц Говнянин П.С Хуйлов\n\nАллалейла медеа групп"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="1"
+            android:src="@drawable/test_img"
+            android:scaleType="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@android:color/background_dark"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginStart="16dp"-->
+        <!--android:layout_marginEnd="16dp"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:text="Домашние задания"-->
+        <!--android:textColor="@android:color/background_dark"-->
+        <!--android:textStyle="normal"-->
+        <!--android:textSize="28sp"-->
+        <!--tools:ignore="HardcodedText" />-->
+    <!---->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Задач: 1856"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вопросов: 185"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:text="Введите номер задания"
+        tools:ignore="HardcodedText,LabelFor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Показать"
+            tools:ignore="HardcodedText" />
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="задачи"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</LinearLayout>

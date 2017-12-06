@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Решабла</string>
+
+    <!--Main Activity-->
+    <string name="classe_fragment_name">Выбор класса</string>
+    <string name="books_fragment_name">Выбор автора</string>
+    <string name="jobs_fragment_name">Задания</string>
+    <string name="job_fragment_name">Решение</string>
+    <!--Home Fragment-->
+    <string name="home_choose_info_text">Выберете класс</string>
+    <string name="home_choose_info_text_btn">Выберать</string>
+    <string name="home_empty_exit_button_text">Выход</string>
+    <string name="home_empty_choose_button_text">Выбрать</string>
+    <string name="home_empty_text">Вы не выбрали класс</string>
+
+    <!--Books Fragment-->
+    <string name="books_fragment_error_text">Нет информации для данного запроса</string>
+
+    <!--Jobs Fragment-->
+    <string name="j_size_text">Задач</string>
+    <string name="q_size_text">Вопрос</string>
+    <string name="check_books_name">Задачи</string>
+    <string name="edit_number_hint_j">Введите номер задачи</string>
+    <string name="edit_number_hint_q">Введите номер вопроса</string>
+    <string name="show_btn_name">Показать</string>
+</resources>
